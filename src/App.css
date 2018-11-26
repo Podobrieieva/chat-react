@@ -1,0 +1,81 @@
+.App {
+  margin-top: 50px;
+  text-align: center;
+
+}
+.name input, .message input {
+    width: 500px;
+    margin-bottom: 20px;
+    background-color: #BC8F8F;
+    font-size: 22px;
+    padding-left: 15px; 
+ 
+    
+}
+
+.name label, .message label {
+    font-size: 22px;
+    color: #D2B48C;
+    text-align: right;
+    
+
+}
+.name input{
+  position: relative;
+  left: 15px;
+  height: 80px;
+}
+.message input{
+  height: 150px;
+  overflow: scroll;
+  size: 350px;
+}
+.message label{
+  position: relative;
+  right: 15px;
+}
+
+
+.name input:hover, .message input:hover {
+  background-color: #D2B48C;
+  transition: 1s;
+}
+
+.button button{
+    border: 2px solid #BC8F8F;
+  margin-top: 10px;
+  height: 80px;
+  width: 150px;
+  font-size: 22px;
+  background-color: #D2B48C;
+  cursor:pointer;
+}
+.button button:hover{
+  background: #BC8F8F;
+  transition: 1s;
+
+}
+.history p {
+    font-size: 18px;
+    color: #BC8F8F;
+    
+}
+.history p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 22px;
+  transition: 1s;
+
+}
+
+.field{
+  padding: 15px 15px;
+
+  margin: 0 auto;
+  width: 500px;
+  border: 3px solid #BC8F8F;
+  height: 500px;
+  overflow: scroll;
+  position: relative;
+  left: 47px;
+}
